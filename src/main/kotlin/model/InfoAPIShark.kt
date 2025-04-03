@@ -1,4 +1,6 @@
 package com.miguelsantos.model
 
-class InfoAPIShark {
-}
+data class InfoAPIShark (
+    val title:String,
+    val thumb:String
+)

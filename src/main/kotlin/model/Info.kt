@@ -1,4 +1,7 @@
 package com.miguelsantos.model
 
-class Info {
+data class Info(val info: InfoAPIShark) {
+
+    override fun toString() = info.toString()
+
 }
